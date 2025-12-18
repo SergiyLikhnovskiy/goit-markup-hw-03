@@ -6,9 +6,48 @@ body {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+margin:0;
 }
 a {
   text-decoration: none;
+}
+.container{
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.page-header{
+border-bottom: 1px solid #E7E9FC;
+}
+.header-container{
+display: flex;
+align-items: center;
+}
+.header-nav{
+display: flex;
+align-items: center;
+}
+.page-nav .link{
+display: block;
+padding: 24px 0;
+}
+.page-nav{
+display: flex;
+align-items: center;
+ gap: 40px;
+}
+.address{
+display: flex;
+align-items: center;
+margin-left: auto;
+}
+.header-nav .logo{
+padding: 24px 0;
+margin-right:76px;
 }
 .logo {
   text-transform: uppercase;
