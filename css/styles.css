@@ -1,7 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -141,6 +138,7 @@ a {
 .my-button:focus {
   background-color: #404bbf;
 }
+/*features*/
 .features{
 padding: 120px 0;
 }
@@ -156,12 +154,23 @@ padding: 120px 0;
   overflow: hidden;}
 }
 .features{
-       padding: 120px 0;
-       display: flex;
+  background-color: #FFFFFF;
+  padding: 120px 0;
+  }
+  .features p {
+  width: 264px;
 }
-.sesection-titel-features{
-  align-items: center;
-}
+.section-titel{
+  padding-top: 120px;
+  
+  }
+
+.section-titel{  
+   gap: 24px;
+
+   display: flex;
+     align-items: flex-start
+  }
 .features h3 {
   font-family: "Roboto";
   font-weight: 500;
