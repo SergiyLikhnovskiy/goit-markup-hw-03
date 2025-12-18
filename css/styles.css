@@ -141,6 +141,27 @@ a {
 .my-button:focus {
   background-color: #404bbf;
 }
+.features{
+padding: 120px 0;
+}
+  .features-class{
+  position: absolute;
+  width
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;}
+}
+.features{
+       padding: 120px 0;
+       display: flex;
+}
+.sesection-titel-features{
+  align-items: center;
+}
 .features h3 {
   font-family: "Roboto";
   font-weight: 500;
