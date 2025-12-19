@@ -1,5 +1,4 @@
 
-}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -139,35 +138,29 @@ a {
   background-color: #404bbf;
 }
 /*features*/
-.features{
-padding: 120px 0;
-}
   .features-class{
   position: absolute;
-  width
   margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
-  overflow: hidden;}
+  overflow: hidden;
 }
 .features{
   background-color: #FFFFFF;
-  padding: 120px 0;
+  padding-bottom: 120px;
   }
   .features p {
-  width: 264px;
+  width: calc((100%-72px) / 4);
 }
 .section-titel{
-  padding-top: 120px;
-  
+  padding-top: 120px; 
   }
 
 .section-titel{  
    gap: 24px;
-
    display: flex;
      align-items: flex-start
   }
@@ -185,17 +178,33 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   color: #434455;
 }
+/*team*/
 .team {
   background-color: #f4f4fd;
 }
+.team-section{
+display: flex;
+gap: 24px;
+align-items: center;
+padding-bottom: 120px;
+}
+.colngs{
+background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+
+}
+
 .team-title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+  text-align: center; 
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .team li {
   background-color: #ffffff;
@@ -207,12 +216,38 @@ padding: 120px 0;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
 }
 .team p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+  padding-bottom: 32px;
+  padding-top: 8px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+/*portfolio*/ 
+.portfolio{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.container-portfolio{
+display: flex;
+flex-wrap: wrap;
+width: calc((100%-72px) / 6);
+gap: 24px;
+}
+.container-portolio-img{
+width: 360px;
+height: 420px;
+background: #FFFFFF;
+border-width: 0px 1px 1px 1px;
+border-style: solid;
+border-color: #E7E9FC;
+
 }
 .portfolio h2 {
   font-family: "Roboto";
@@ -222,6 +257,7 @@ padding: 120px 0;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 .portfolio h3 {
   font-family: "Roboto";
@@ -230,12 +266,17 @@ padding: 120px 0;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-left: 16px;
 }
 .portfolio p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-left: 16px;
+  padding-top: 8px;
+
 }
 .footer {
   background-color: #2e2f42;
@@ -259,4 +300,13 @@ padding: 120px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
+}
+.container-footer{
+padding-top:101.5px}
+.footer-text{
+display: flex;
+width: 264px;
+padding-top: 16px;
+
 }
