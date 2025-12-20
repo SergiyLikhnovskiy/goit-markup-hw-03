@@ -1,4 +1,3 @@
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -27,9 +26,10 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-.section{
-padding: 120px 0 ;}
-.img {
+.section {
+  padding: 120px 0;
+}
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -59,10 +59,9 @@ padding: 120px 0 ;}
   align-items: center;
   gap: 40px;
 }
-
-.contacts{
-margin-left: auto;}
-
+.contacts {
+  margin-left: auto;
+}
 .header-nav .logo {
   padding: 24px 0;
   margin-right: 76px;
@@ -93,6 +92,9 @@ margin-left: auto;}
 .page-nav .link:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .address .link {
   font-size: 16px;
   line-height: 1.5;
@@ -117,7 +119,7 @@ margin-left: auto;}
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
-   margin: 0 auto 48px;
+  margin: 0 auto 48px;
 }
 .my-button {
   font-family: "Roboto";
@@ -127,22 +129,22 @@ margin-left: auto;}
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-width: 169px;
-   height: 56px;
-   margin: 0 auto;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .my-button:hover,
 .my-button:focus {
   background-color: #404bbf;
 }
 /*features*/
-  .visually-hidden{
+.visually-hidden {
   position: absolute;
   margin: -1px;
   border: 0;
@@ -152,17 +154,17 @@ margin-left: auto;}
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
-.features{
-  background-color: #FFFFFF;
-  }
-  .features li {
-  width: calc((100% - 72px) / 4)
+.features {
+  background-color: #ffffff;
 }
-.section-titel{  
-   gap: 24px;
-   display: flex;
-     align-items: flex-start
-  }
+.features li {
+  width: calc((100% - 72px) / 4);
+}
+.section-titel {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
 .features h3 {
   font-family: "Roboto";
   font-weight: 500;
@@ -181,16 +183,16 @@ margin-left: auto;}
 .team {
   background-color: #f4f4fd;
 }
-.team-section{
-display: flex;
-gap: 24px;
-align-items: center;
+.team-section {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
-.colngs{
-background: #FFFFFF;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-
+.colngs {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -198,7 +200,7 @@ border-radius: 0px 0px 4px 4px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center; 
+  text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-bottom: 72px;
@@ -213,7 +215,7 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
+  row-gap: 8px;
 }
 .team p {
   font-size: 16px;
@@ -221,24 +223,24 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  padding-bottom: 32px;
-  padding-top: 8px;
- padding: 32px 0;
 }
-/*portfolio*/ 
-.container-portfolio{
-display: flex;
-flex-wrap: wrap;
-width: calc((100%-72px) /6 );
-gap: 24px;
+.team-list {
+  padding: 32px 0;
 }
-.container-portolio-img{
-width: 360px;
-background: #FFFFFF;
-border-width: 0px 1px 1px 1px;
-border-style: solid;
-border-color: #E7E9FC;
 
+/*portfolio*/
+.container-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.container-portolio-img {
+  background: #ffffff;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+  width: calc((100% - 72px) / 3);
 }
 .portfolio h2 {
   font-family: "Roboto";
@@ -267,7 +269,9 @@ border-color: #E7E9FC;
   color: #434455;
   padding-left: 16px;
   padding-top: 8px;
-
+}
+.portfolio-list {
+  padding-bottom: 32px;
 }
 .footer {
   background-color: #2e2f42;
@@ -292,12 +296,11 @@ border-color: #E7E9FC;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.container-footer{
-padding: 100px 0;
+.container-footer {
+  padding: 100px 0;
 }
-.footer-text{
-display: flex;
-width: 264px;
-padding-top: 16px;
-
+.footer-text {
+  display: flex;
+  width: 264px;
+  padding-top: 16px;
 }
