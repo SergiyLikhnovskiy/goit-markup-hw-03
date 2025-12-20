@@ -27,6 +27,13 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section{
+padding: 120px 0 ;}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -50,9 +57,11 @@ a {
 .address {
   display: flex;
   align-items: center;
-  margin-left: 332px;
   gap: 40px;
 }
+
+.contacts{
+margin-left: auto;}
 
 .header-nav .logo {
   padding: 24px 0;
@@ -118,8 +127,6 @@ a {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
-  }
-  .my-button {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -130,15 +137,12 @@ a {
    border-radius: 4px;
    cursor: pointer;
 }
-.my-button {
-  cursor: pointer;
-}
 .my-button:hover,
 .my-button:focus {
   background-color: #404bbf;
 }
 /*features*/
-  .features-class{
+  .visually-hidden{
   position: absolute;
   margin: -1px;
   border: 0;
@@ -150,15 +154,10 @@ a {
 }
 .features{
   background-color: #FFFFFF;
-  padding-bottom: 120px;
   }
-  .features p {
-  width: calc((100%-72px) / 4);
+  .features li {
+  width: calc((100% - 72px) / 4)
 }
-.section-titel{
-  padding-top: 120px; 
-  }
-
 .section-titel{  
    gap: 24px;
    display: flex;
@@ -186,7 +185,6 @@ a {
 display: flex;
 gap: 24px;
 align-items: center;
-padding-bottom: 120px;
 }
 .colngs{
 background: #FFFFFF;
@@ -203,7 +201,6 @@ border-radius: 0px 0px 4px 4px;
   text-align: center; 
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 .team li {
@@ -226,23 +223,17 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   padding-bottom: 32px;
   padding-top: 8px;
-  padding-left: 52px;
-  padding-right: 52px;
+ padding: 32px 0;
 }
 /*portfolio*/ 
-.portfolio{
-padding-top: 120px;
-padding-bottom: 120px;
-}
 .container-portfolio{
 display: flex;
 flex-wrap: wrap;
-width: calc((100%-72px) / 6);
+width: calc((100%-72px) /6 );
 gap: 24px;
 }
 .container-portolio-img{
 width: 360px;
-height: 420px;
 background: #FFFFFF;
 border-width: 0px 1px 1px 1px;
 border-style: solid;
@@ -300,10 +291,10 @@ border-color: #E7E9FC;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-bottom: 100px;
 }
 .container-footer{
-padding-top:101.5px}
+padding: 100px 0;
+}
 .footer-text{
 display: flex;
 width: 264px;
