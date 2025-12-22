@@ -110,7 +110,7 @@ img {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.title > h1 {
+.title h1 {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
@@ -160,7 +160,7 @@ img {
 .features li {
   width: calc((100% - 72px) / 4);
 }
-.section-titel {
+.section-title {
   gap: 24px;
   display: flex;
   align-items: flex-start;
@@ -215,7 +215,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  row-gap: 8px;
 }
 .team p {
   font-size: 16px;
@@ -223,9 +222,10 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  padding-top: 8px;
 }
 .team-list {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 /*portfolio*/
@@ -259,22 +259,21 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 0;
 }
 .portfolio p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-left: 16px;
   padding-top: 8px;
 }
 .portfolio-list {
-  padding-bottom: 32px;
+  padding: 32px 16px;
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-footer {
   text-transform: uppercase;
@@ -295,9 +294,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-.container-footer {
-  padding: 100px 0;
 }
 .footer-text {
   display: flex;
