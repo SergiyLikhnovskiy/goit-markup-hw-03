@@ -278,7 +278,7 @@ address {
   border-width: 0px 1px 1px 1px;
   border-style: solid;
   border-color: #e7e9fc;
-  :none;
+  border-top: none;
 }
 .footer-text {
   line-height: 1.5;
