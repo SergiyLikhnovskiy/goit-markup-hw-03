@@ -69,6 +69,8 @@ img {
 .nav-link {
   display: flex;
   gap: 40px;
+}
+.nav-link .link {
   padding: 24px 0;
 }
 .address-link {
@@ -81,6 +83,7 @@ img {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .address {
   margin-left: auto;
@@ -165,12 +168,14 @@ address {
 /* feature */
 .visually-hidden {
   position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0, 0, 0, 0);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .feature-list {
@@ -240,6 +245,7 @@ address {
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-top: none;
 }
 .team-card {
   display: flex;
